@@ -44,44 +44,83 @@
 <div class="page page--overflow" id="page">
 
   <section class="section intro" id="intro">
-    <div class="container container--sm">
-      <div class="block-wrap">
-        <div class="block">
-          <h1 class="block__title">Ли Машанло</h1>
-          <div>
-            <p>Фронтенд разработчик</p>
-            <p>Создаю удобные и красивые веб-сайты и приложения</p>
-          </div>
-        </div>
-        <div class="block">
-          <h2 class="block__title">Опыт работы:</h2>
-          <ul class="unordered-list">
-            <li>Фронтенд разработчик в <a href="https://smirnov.school/" class="block__link" target="_blank">Smirnov School</a> (2022 - 2024)</li>
-            <li>Фриланс-верстальщик (2021 - 2022)</li>
-          </ul>
-        </div>
-        <div class="block">
-          <h2 class="block__title">Контакты:</h2>
-          <ul class="unordered-list">
-            <li><a href="mailto:mr.mashanlo@yandex.ru" class="block__link" target="_blank">Email</a></li>
-            <li><a href="https://t.me/mr_mashanlo" class="block__link" target="_blank">Telegram</a></li>
-            <li><a href="https://github.com/mr-mashanlo" class="block__link" target="_blank">GitHub</a></li>
-          </ul>
-        </div>
-        <div class="block">
-          <h2 class="block__title">Проекты:</h2>
-          <ul class="unordered-list">
-            <li><a href="https://github.com/mr-mashanlo/html-starter" class="block__link" target="_blank">HTML Gulp Starter</a></li>
-            <li><a href="https://github.com/mr-mashanlo/grants" class="block__link" target="_blank">Demo HTML верстка #1</a></li>
-            <li><a href="https://github.com/mr-mashanlo/animation" class="block__link" target="_blank">Demo HTML верстка #2</a></li>
-            <li><a href="https://github.com/mr-mashanlo/agency" class="block__link" target="_blank">Demo HTML верстка #3</a></li>
-            <li><a href="https://github.com/mr-mashanlo/fakeapi" class="block__link" target="_blank">Fake API</a></li>
-            <li><a href="https://github.com/mr-mashanlo/tasks-client" class="block__link" target="_blank">React tasks manager (in development)</a></li>
-          </ul>
-        </div>
+  <div class="container container--sm">
+    <div class="block-wrap">
+      <div class="block" itemscope itemtype="https://schema.org/Person">
+        <h1 class="block__title" itemprop="name">Привет, я <span>Ли</span>!</h1>
+        <p itemprop="jobTitle">Фронтенд разработчик</p>
+      </div>
+      <div class="block">
+        <h2 class="block__title">Опыт работы:</h2>
+        <ul class="unordered-list">
+          <li>
+            <span>Фронтенд разработчик в </span>
+            <a href="https://smirnov.school" target="_blank" class="block__link block__link--bold" itemprop="worksFor" itemscope itemtype="https://schema.org/Organization">
+              <span itemprop="name">Smirnov School</span>
+            </a> 
+            <time datetime="2022">2022</time> - <time datetime="2024">2024</time>
+          </li>
+          <li>
+            <span>Фриланс-верстальщик</span> 
+            <time datetime="2021">2021</time> - <time datetime="2022">2022</time>
+          </li>
+        </ul>
+      </div>
+      <div class="block">
+        <h2 class="block__title">Контакты:</h2>
+        <ul class="unordered-list" itemscope itemtype="https://schema.org/ContactPoint">
+          <li>
+            <a href="mailto:mr.mashanlo@yandex.ru" class="block__link" target="_blank" itemprop="email">Email</a>
+          </li>
+          <li>
+            <a href="https://t.me/mr_mashanlo" class="block__link" target="_blank" itemprop="url">Telegram</a>
+          </li>
+          <li>
+            <a href="https://github.com/mr-mashanlo" class="block__link" target="_blank" itemprop="url">GitHub</a>
+          </li>
+        </ul>
+      </div>
+      <div class="block">
+        <h2 class="block__title">Проекты:</h2>
+        <ul class="unordered-list">
+          <li>
+            <a href="https://github.com/mr-mashanlo/html-starter" class="block__link" target="_blank" itemprop="hasPart" itemscope itemtype="https://schema.org/CreativeWork">
+              <span itemprop="name">Starter Kit для верстки на Gulp</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://storeclient-hazel.vercel.app" target="_blank" class="block__link block__link--bold" itemprop="hasPart" itemscope itemtype="https://schema.org/CreativeWork">
+              <span itemprop="name">Интернет-магазин</span>
+            </a>
+            с 
+            <a href="https://github.com/mr-mashanlo/store-client" target="_blank" class="block__link block__link--bold" itemprop="hasPart" itemscope itemtype="https://schema.org/CreativeWork">
+              <span itemprop="name">Frontend кодом</span>
+            </a>
+            и 
+            <a href="https://github.com/mr-mashanlo/store-server" target="_blank" class="block__link block__link--bold" itemprop="hasPart" itemscope itemtype="https://schema.org/CreativeWork">
+              <span itemprop="name">Backend кодом</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://mr-mashanlo.github.io/grants/dist/index.html" target="_blank" class="block__link" itemprop="hasPart" itemscope itemtype="https://schema.org/CreativeWork">
+              <span itemprop="name">HTML верстка #1</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://mr-mashanlo.github.io/agency/dist/index.html" target="_blank" class="block__link" itemprop="hasPart" itemscope itemtype="https://schema.org/CreativeWork">
+              <span itemprop="name">HTML верстка #2</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://mr-mashanlo.github.io/animation/dist/index.html" target="_blank" class="block__link" itemprop="hasPart" itemscope itemtype="https://schema.org/CreativeWork">
+              <span itemprop="name">HTML верстка #3</span>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
 </div>
 
