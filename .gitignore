@@ -5,7 +5,6 @@ node_modules
 
 # Files
 .env
-todo.md
 package-lock.json
 
 # Editor directories and files

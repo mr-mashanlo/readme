@@ -1,4 +1,7 @@
-@include font('Fantasque Sans Mono', normal, 400, '../fonts/fantasque-sans-mono/fantasquesansmono-regular.woff2')
-@include font('Fantasque Sans Mono', normal, 700, '../fonts/fantasque-sans-mono/fantasquesansmono-bold.woff2')
+@use 'mixins' as mixin
 
-@import 'https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,600,0,0'
+@include mixin.font('Iosevka-Extended', normal, 400, '../fonts/Iosevka-Extended/Iosevka-Extended.woff2')
+@include mixin.font('Iosevka-Extended', normal, 500, '../fonts/Iosevka-Extended/Iosevka-Extended-Medium.woff2')
+@include mixin.font('Iosevka-Extended', normal, 600, '../fonts/Iosevka-Extended/Iosevka-Extended-SemiBold.woff2')
+@include mixin.font('Iosevka-Extended', normal, 700, '../fonts/Iosevka-Extended/Iosevka-Extended-Bold.woff2')
+@include mixin.font('Iosevka-Extended', normal, 800, '../fonts/Iosevka-Extended/Iosevka-Extended-ExtraBold.woff2')
