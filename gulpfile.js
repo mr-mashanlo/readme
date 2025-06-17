@@ -110,7 +110,7 @@ function serve() {
   watch( paths.images.watch, images );
 }
 
-export const build = series( clean, fonts, images, html, styles, scripts, serve );
+export const build = series( clean, fonts, images, html, styles, scripts );
 
 export const dev = series( clean, fonts, images, parallel( html, styles, scripts ), serve );
 
